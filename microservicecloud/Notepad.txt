@@ -1,0 +1,6 @@
+模块说明
+
+1、microservicecloud-api 提供者和销费者之间共同使用的模块
+2、microservicecloud-consumer-* 销费者
+3、microservicecloud-provider-* 提供者
+4、microservicecloud-eurekaserver-* Eureka服务端
