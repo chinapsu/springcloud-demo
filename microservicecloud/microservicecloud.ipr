@@ -11,11 +11,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="microservicecloud-api" />
+        <module name="microservicecloud-consumer-dept" />
         <module name="microservicecloud-eureka-server-7001" />
         <module name="microservicecloud-eurekaserver-7001" />
         <module name="microservicecloud-eurekaserver-7002" />
         <module name="microservicecloud-eurekaserver-7003" />
-        <module name="microservicecloud-provider-dept" />
+        <module name="microservicecloud-provider-dept-8001" />
+        <module name="microservicecloud-provider-dept-8002" />
+        <module name="microservicecloud-provider-dept-8003" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -27,7 +30,9 @@
       <module name="microservicecloud-eurekaserver-7001" target="1.8" />
       <module name="microservicecloud-eurekaserver-7002" target="1.8" />
       <module name="microservicecloud-eurekaserver-7003" target="1.8" />
-      <module name="microservicecloud-provider-dept" target="1.8" />
+      <module name="microservicecloud-provider-dept-8001" target="1.8" />
+      <module name="microservicecloud-provider-dept-8002" target="1.8" />
+      <module name="microservicecloud-provider-dept-8003" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
@@ -55,11 +60,6 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="D:/microservicecloud-eurekaserver-7002/pom.xml" />
       </list>
-    </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/microservicecloud-consumer-dept/pom.xml" />
-      </set>
     </option>
   </component>
   <component name="Palette2">
@@ -190,11 +190,13 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/microservicecloud.iml" filepath="$PROJECT_DIR$/microservicecloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservicecloud-api/microservicecloud-api.iml" filepath="$PROJECT_DIR$/microservicecloud-api/microservicecloud-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/microservicecloud-consumer-dept/microservicecloud-consumer-dept.iml" filepath="$PROJECT_DIR$/microservicecloud-consumer-dept/microservicecloud-consumer-dept.iml" />
+      <module fileurl="file://D:/Project/JavaProject/microservicecloud/microservicecloud-eurekaserver-7002/microservicecloud-consumer-dept.iml" filepath="D:/Project/JavaProject/microservicecloud/microservicecloud-eurekaserver-7002/microservicecloud-consumer-dept.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservicecloud-eurekaserver-7001/microservicecloud-eurekaserver-7001.iml" filepath="$PROJECT_DIR$/microservicecloud-eurekaserver-7001/microservicecloud-eurekaserver-7001.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservicecloud-eurekaserver-7002/microservicecloud-eurekaserver-7002.iml" filepath="$PROJECT_DIR$/microservicecloud-eurekaserver-7002/microservicecloud-eurekaserver-7002.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservicecloud-eurekaserver-7003/microservicecloud-eurekaserver-7003.iml" filepath="$PROJECT_DIR$/microservicecloud-eurekaserver-7003/microservicecloud-eurekaserver-7003.iml" />
-      <module fileurl="file://$PROJECT_DIR$/microservicecloud-provider-dept/microservicecloud-provider-dept.iml" filepath="$PROJECT_DIR$/microservicecloud-provider-dept/microservicecloud-provider-dept.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservicecloud-provider-dept-8001/microservicecloud-provider-dept-8001.iml" filepath="$PROJECT_DIR$/microservicecloud-provider-dept-8001/microservicecloud-provider-dept-8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservicecloud-provider-dept-8002/microservicecloud-provider-dept-8002.iml" filepath="$PROJECT_DIR$/microservicecloud-provider-dept-8002/microservicecloud-provider-dept-8002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservicecloud-provider-dept-8003/microservicecloud-provider-dept-8003.iml" filepath="$PROJECT_DIR$/microservicecloud-provider-dept-8003/microservicecloud-provider-dept-8003.iml" />
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">

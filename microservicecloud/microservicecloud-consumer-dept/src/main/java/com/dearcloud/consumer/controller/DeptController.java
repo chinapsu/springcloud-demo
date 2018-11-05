@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 public class DeptController {
-    private static final String REST_URL_PREFIX = "http://127.0.0.1:8001";
+    private static final String REST_URL_PREFIX = "http://MICROSERVICECLOUD-PROVIDER-DEPT";
     @Resource
     private RestTemplate restTemplate;
 
@@ -24,7 +24,7 @@ public class DeptController {
     }
 
     @GetMapping("/dept/list")
-    public List<Dept> list() {
+    public List list() {
         return restTemplate.getForObject(REST_URL_PREFIX + "/dept/list", List.class);
     }
 }
